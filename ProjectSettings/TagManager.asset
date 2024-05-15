@@ -9,6 +9,7 @@ TagManager:
   - rightlimit
   - uplimit
   - downlimit
+  - itbox_player
   layers:
   - Default
   - TransparentFX

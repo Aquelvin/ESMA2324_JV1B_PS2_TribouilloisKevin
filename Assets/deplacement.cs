@@ -27,7 +27,7 @@ public class deplacements : MonoBehaviour
         {
             rgbd.velocity = new Vector2(rgbd.velocity.x, 8);
             grounded = false;
-            gameObject.GetComponent<Animator>().Play("JUMP");
+            //gameObject.GetComponent<Animator>().Play("JUMP");
             
         }
   
@@ -38,16 +38,16 @@ public class deplacements : MonoBehaviour
             {
                 rgbd.velocity = new Vector2(-6f, rgbd.velocity.y);
             }
-            if (grounded)
-            {
-                gameObject.GetComponent<Animator>().Play("marche");
-            }
+            //if (grounded)
+            //{
+                //gameObject.GetComponent<Animator>().Play("marche");
+            //}
 
-            else
-            {
-                gameObject.GetComponent<Animator>().Play("JUMP");
-            }
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            //else
+            //{
+                //gameObject.GetComponent<Animator>().Play("JUMP");
+            //}
+            //gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (Input.GetKey(rightKey))
         {
@@ -58,31 +58,31 @@ public class deplacements : MonoBehaviour
                 rgbd.velocity = new Vector2(6f, rgbd.velocity.y);
             }
 
-            if (grounded)
-            {
-                gameObject.GetComponent<Animator>().Play("marche");
-            }
+            //if (grounded)
+            //{
+                //gameObject.GetComponent<Animator>().Play("marche");
+            //}
 
-            else
-            {
-                gameObject.GetComponent<Animator>().Play("JUMP");
-            }
+            //else
+            //{
+                //gameObject.GetComponent<Animator>().Play("JUMP");
+            //}
 
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            //gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
 
         else
         {
             rgbd.velocity = new Vector2(0f, rgbd.velocity.y);
-            if (grounded)
-            {
-                gameObject.GetComponent<Animator>().Play("AFK");
-            }
+            //if (grounded)
+            //{
+                //gameObject.GetComponent<Animator>().Play("AFK");
+            //}
 
-            else
-            {
-                gameObject.GetComponent<Animator>().Play("JUMP");
-            }
+            //else
+            //{
+                //gameObject.GetComponent<Animator>().Play("JUMP");
+            //}
         }
 
 
