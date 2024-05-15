@@ -13,6 +13,9 @@ public class deplacements : MonoBehaviour
     [SerializeField]
     private BoxCollider2D bc2d;
 
+    public Transform hitbox;
+
+
     public bool grounded = false;
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,7 @@ public class deplacements : MonoBehaviour
   
         if (Input.GetKey(leftKey))
         {
+            hitbox.localPosition = new Vector3(-0.973f, 0.005f, 0f);
             rgbd.AddForce(Vector2.left);
             if (rgbd.velocity.x < -6f)
             {
@@ -40,17 +44,18 @@ public class deplacements : MonoBehaviour
             }
             //if (grounded)
             //{
-                //gameObject.GetComponent<Animator>().Play("marche");
+            //gameObject.GetComponent<Animator>().Play("marche");
             //}
 
             //else
             //{
-                //gameObject.GetComponent<Animator>().Play("JUMP");
+            //gameObject.GetComponent<Animator>().Play("JUMP");
             //}
             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (Input.GetKey(rightKey))
         {
+            hitbox.localPosition = new Vector3(0.99f, 0.005f, 0f);
             rgbd.AddForce(Vector2.right);
 
             if (rgbd.velocity.x > 6f)
@@ -94,12 +99,7 @@ public class deplacements : MonoBehaviour
         {
             grounded = true;
         }
-        else
-        {
-            grounded = false;
-
-
-        }
+       
     }
 
 }
