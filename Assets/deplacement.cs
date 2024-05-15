@@ -15,6 +15,8 @@ public class deplacements : MonoBehaviour
 
     public Transform hitbox;
 
+    public BoxCollider2D sol;
+
 
     public bool grounded = false;
     // Start is called before the first frame update
@@ -93,13 +95,12 @@ public class deplacements : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D sol)
     {
-        while (collision.gameObject.tag == "sol")
+        if (sol.CompareTag("sol"))
         {
             grounded = true;
         }
-       
     }
 
 }
