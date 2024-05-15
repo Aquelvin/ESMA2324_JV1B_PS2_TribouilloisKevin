@@ -95,12 +95,21 @@ public class deplacements : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D sol)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (sol.CompareTag("sol"))
+        if (collision.gameObject.tag == "sol")
         {
+            
             grounded = true;
         }
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "sol")
+        {
+
+            grounded = false;
+        }
+    }
 }
