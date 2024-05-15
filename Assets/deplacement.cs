@@ -95,7 +95,7 @@ public class deplacements : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "sol")
+        while (collision.gameObject.tag == "sol")
         {
             grounded = true;
         }
