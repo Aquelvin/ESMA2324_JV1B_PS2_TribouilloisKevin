@@ -7,27 +7,38 @@ public class ShootPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("up");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("z"))
+        //up
+        if (Input.GetKey(KeyCode.Space))
         {
-            rb.velocity = new Vector2(0, 1*movementSpeed);
+            Debug.Log("up");
+            //rb.velocity = new Vector2(0, 1*movementSpeed);
         }
-        if (Input.GetKey("q"))
+
+        //left
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rb.velocity = new Vector2(-1*movementSpeed,0);
+            Debug.Log("left");
+            //rb.velocity = new Vector2(-1*movementSpeed,0);
         }
-        if (Input.GetKey("s"))
+
+        //down
+        if (Input.GetKey(KeyCode.DownArrow))
         {
-            rb.velocity = new Vector2(0,-1*movementSpeed);
+            Debug.Log("down");
+            //rb.velocity = new Vector2(0,-1*movementSpeed);
         }
-        if (Input.GetKey("d"))
+
+        //right
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            rb.velocity = new Vector2(1*movementSpeed,0);
+            Debug.Log("right");
+            //rb.velocity = new Vector2(1*movementSpeed,0);
         }
     }
 }
