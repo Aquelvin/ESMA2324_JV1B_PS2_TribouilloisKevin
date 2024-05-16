@@ -10,6 +10,8 @@ public class mob_destruction : MonoBehaviour
 
     public BoxCollider2D bc2d;
 
+
+
     public bool aportee = false;
     // Start is called before the first frame update
     void Start()
@@ -39,6 +41,11 @@ public class mob_destruction : MonoBehaviour
 
             aportee = true;
         }
+        if (other.CompareTag("laser"))
+        {
+            Destroy(bc2d.gameObject);
+
+        }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
@@ -50,4 +57,5 @@ public class mob_destruction : MonoBehaviour
 
 
     }
+  
 }

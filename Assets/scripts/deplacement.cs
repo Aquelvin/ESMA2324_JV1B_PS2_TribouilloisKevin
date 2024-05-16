@@ -5,7 +5,7 @@ using UnityEngine;
 public class deplacements : MonoBehaviour
 {
     [SerializeField]
-    private KeyCode leftKey = KeyCode.LeftArrow, rightKey = KeyCode.RightArrow, upkey = KeyCode.UpArrow;
+    private KeyCode leftbutton = KeyCode.LeftArrow, rightbutton = KeyCode.RightArrow, jumpbutton = KeyCode.UpArrow;
 
     [SerializeField]
     private Rigidbody2D rgbd;
@@ -19,6 +19,8 @@ public class deplacements : MonoBehaviour
 
 
     public bool grounded = false;
+
+    public bool toleft = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,7 @@ public class deplacements : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(upkey) && grounded)
+        if (Input.GetKeyDown(jumpbutton) && grounded)
         {
             
             rgbd.velocity = new Vector2(rgbd.velocity.x, 8);
@@ -38,8 +40,9 @@ public class deplacements : MonoBehaviour
             
         }
   
-        if (Input.GetKey(leftKey))
+        if (Input.GetKey(leftbutton))
         {
+            toleft = true;
             hitbox.localPosition = new Vector3(-0.973f, 0.005f, 0f);
             rgbd.AddForce(Vector2.left);
             if (rgbd.velocity.x < -6f)
@@ -57,8 +60,9 @@ public class deplacements : MonoBehaviour
             //}
             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (Input.GetKey(rightKey))
+        else if (Input.GetKey(rightbutton))
         {
+            toleft = false;
             hitbox.localPosition = new Vector3(0.99f, 0.005f, 0f);
             rgbd.AddForce(Vector2.right);
 

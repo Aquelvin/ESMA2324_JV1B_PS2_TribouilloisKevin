@@ -11,6 +11,8 @@ public class ShootPlayer : MonoBehaviour
 
     public GameObject Laser;
 
+    
+
     public float shotSpeed = 1f;
     public float laserRate = 2f;
     public float range = 1.5f;
@@ -18,30 +20,46 @@ public class ShootPlayer : MonoBehaviour
     private bool canShoot = true;
 
 
+    [SerializeField]
+    private KeyCode fire = KeyCode.LeftShift;
+    [SerializeField]
+    private KeyCode fireup = KeyCode.CapsLock;
+
+
+    deplacements droite;
+
+    void Start()
+    {
+        droite = FindObjectOfType<deplacements>();
+    }
     // Update is called once per frame
     void Update()
     {
-        if (canShoot)
+        if (canShoot && Input.GetKey(fire))
         {
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                Debug.Log("up");
-                Shoot(UpSpawn, new Vector2(0,1));
-                
-            }
+            
             //Left
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if (droite.toleft)
             {
                 Debug.Log("left");
                 Shoot(LeftSpawn, new Vector2(-1, 0));
             }
 
             //Right
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (!droite.toleft)
             {
                 Debug.Log("right");
                 Shoot(RightSpawn, new Vector2(1, 0));
             }
+        }
+        else if (canShoot && Input.GetKey(fireup))
+        {
+
+                Debug.Log("up");
+         
+            Shoot(UpSpawn, new Vector2(0, 1));
+
+            
         }
     }
 
@@ -51,8 +69,12 @@ public class ShootPlayer : MonoBehaviour
         canShoot = false;
         StartCoroutine(LaserRate());
         GameObject laser = Instantiate(Laser, spawnPoint.position, Quaternion.identity);
+
         laser.GetComponent<Rigidbody2D>().velocity = shootDirection*shotSpeed;
         laser.GetComponent<Laser>().timeToDeath = range;
+
+     
+
     }
 
     IEnumerator LaserRate()
