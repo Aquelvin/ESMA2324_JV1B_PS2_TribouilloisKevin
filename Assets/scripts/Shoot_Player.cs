@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Shoot_Player : MonoBehaviour
 {
-    //[SerializeField]
-    //private KeyCode leftKey = KeyCode.LeftArrow, rightKey = KeyCode.RightArrow, upkey = KeyCode.UpArrow;
-    public bool up = false;
+    public Transform UpSpawn;
+    //public Transform DownSpawn;
+    public Transform LeftSpawn;
+    public Transform RightSpawn;
+    public GameObject laser;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,33 +20,40 @@ public class Shoot_Player : MonoBehaviour
     void Update()
     {
         //up
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
+            Shoot(UpSpawn);
             Debug.LogAssertion("up");
 
-            up = true;
             //rb.velocity = new Vector2(0, 1*movementSpeed);
         }
 
         //left
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            Shoot(LeftSpawn);
             Debug.LogAssertion("left");
             //rb.velocity = new Vector2(-1*movementSpeed,0);
         }
 
         //down
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            Debug.LogAssertion("down");
+        //if (Input.GetKey(KeyCode.DownArrow))
+        //{
+           // Debug.LogAssertion("down");
             //rb.velocity = new Vector2(0,-1*movementSpeed);
-        }
+        //}
 
         //right
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            Shoot(RightSpawn);
             Debug.LogAssertion("right");
             //rb.velocity = new Vector2(1*movementSpeed,0);
         }
+    }
+
+    private void Shoot(Transform spawnPoint)
+    {
+        Instantiate(laser, spawnPoint.position, Quaternion.identity);
     }
 }

@@ -934,7 +934,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927fed6287c7d114ab31f3e97396c10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  up: 0
+  UpSpawn: {fileID: 1388668909}
+  LeftSpawn: {fileID: 306359829}
+  RightSpawn: {fileID: 512008862}
+  laser: {fileID: 2581151992878492956, guid: 1b1b08c0094b03c43a1459e4d63bb350, type: 3}
 --- !u!1 &2048876833
 GameObject:
   m_ObjectHideFlags: 0
