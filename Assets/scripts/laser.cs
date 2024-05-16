@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class laser : MonoBehaviour
+public class Laser : MonoBehaviour
 {
     public float timeToDeath = 1f;
     // Start is called before the first frame update
@@ -17,4 +17,12 @@ public class laser : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player") && !other.CompareTag("laser") && !other.CompareTag("itbox_player"))
+        { 
+            Destroy(gameObject);
+        }
+        
+    }
 }

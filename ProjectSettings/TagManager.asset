@@ -10,6 +10,7 @@ TagManager:
   - uplimit
   - downlimit
   - itbox_player
+  - laser
   layers:
   - Default
   - TransparentFX
