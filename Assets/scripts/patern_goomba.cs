@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class deplacement_goomba : MonoBehaviour
+public class patern_goomba : MonoBehaviour
 {
     public bool toleft = true;
 
