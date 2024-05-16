@@ -8,7 +8,7 @@ public class Shoot_Player : MonoBehaviour
     //public Transform DownSpawn;
     public Transform LeftSpawn;
     public Transform RightSpawn;
-    public GameObject laser;
+    public GameObject Laser;
     
     // Start is called before the first frame update
     void Start()
@@ -54,7 +54,7 @@ public class Shoot_Player : MonoBehaviour
 
     private void Shoot(Transform spawnPoint, Vector2 shootDirection)
     {
-        GameObject laser = Instantiate(laser, spawnPoint.position, Quaternion.identity);
+        GameObject laser = Instantiate(Laser, spawnPoint.position, Quaternion.identity);
         laser.GetComponent<Rigidbody2D>().velocity = shootDirection;
         
     }
