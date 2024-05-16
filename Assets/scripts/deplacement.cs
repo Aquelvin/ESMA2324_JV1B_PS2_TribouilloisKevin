@@ -22,6 +22,7 @@ public class deplacements : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class deplacements : MonoBehaviour
 
         if (Input.GetKeyDown(upkey) && grounded)
         {
+            
             rgbd.velocity = new Vector2(rgbd.velocity.x, 8);
             grounded = false;
             //gameObject.GetComponent<Animator>().Play("JUMP");

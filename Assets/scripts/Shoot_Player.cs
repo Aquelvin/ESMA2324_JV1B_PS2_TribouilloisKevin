@@ -2,42 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootPlayer : MonoBehaviour
+public class Shoot_Player : MonoBehaviour
 {
+    //[SerializeField]
+    //private KeyCode leftKey = KeyCode.LeftArrow, rightKey = KeyCode.RightArrow, upkey = KeyCode.UpArrow;
+    public bool up = false;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("up");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         //up
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            Debug.Log("up");
+            Debug.LogAssertion("up");
+
+            up = true;
             //rb.velocity = new Vector2(0, 1*movementSpeed);
         }
 
         //left
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            Debug.Log("left");
+            Debug.LogAssertion("left");
             //rb.velocity = new Vector2(-1*movementSpeed,0);
         }
 
         //down
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            Debug.Log("down");
+            Debug.LogAssertion("down");
             //rb.velocity = new Vector2(0,-1*movementSpeed);
         }
 
         //right
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            Debug.Log("right");
+            Debug.LogAssertion("right");
             //rb.velocity = new Vector2(1*movementSpeed,0);
         }
     }
