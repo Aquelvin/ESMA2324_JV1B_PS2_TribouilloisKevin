@@ -52,8 +52,10 @@ public class Shoot_Player : MonoBehaviour
         }
     }
 
-    private void Shoot(Transform spawnPoint)
+    private void Shoot(Transform spawnPoint, Vector2 shootDirection)
     {
-        Instantiate(laser, spawnPoint.position, Quaternion.identity);
+        GameObject laser = Instantiate(laser, spawnPoint.position, Quaternion.identity);
+        laser.GetComponent<Rigidbody2D>().velocity = shootDirection;
+        
     }
 }
