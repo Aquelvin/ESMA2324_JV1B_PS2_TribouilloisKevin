@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class deplacements : MonoBehaviour
 {
@@ -21,6 +22,11 @@ public class deplacements : MonoBehaviour
     public bool grounded = false;
 
     public bool toleft = true;
+
+    public bool leftwalled = false;
+
+    public bool rightwalled = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,11 +45,27 @@ public class deplacements : MonoBehaviour
             //gameObject.GetComponent<Animator>().Play("JUMP");
             
         }
-  
+
+
+        if (Input.GetKeyDown(jumpbutton) && leftwalled)
+        {
+
+            rgbd.velocity = new Vector2(15, 8);
+
+        }
+
+        if (Input.GetKeyDown(jumpbutton) && rightwalled)
+        {
+
+            rgbd.velocity = new Vector2(-15, 8);
+
+        }
+
+
         if (Input.GetKey(leftbutton))
         {
             toleft = true;
-            hitbox.localPosition = new Vector3(-0.973f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
             rgbd.AddForce(Vector2.left);
             if (rgbd.velocity.x < -6f)
             {
@@ -63,7 +85,7 @@ public class deplacements : MonoBehaviour
         else if (Input.GetKey(rightbutton))
         {
             toleft = false;
-            hitbox.localPosition = new Vector3(0.99f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
             rgbd.AddForce(Vector2.right);
 
             if (rgbd.velocity.x > 6f)
@@ -101,21 +123,48 @@ public class deplacements : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "sol")
+        if (other.CompareTag("sol"))
         {
-            
+
             grounded = true;
         }
-    }
 
-    private void OnCollisionExit2D(Collision2D collision)
+        if (other.CompareTag("leftwall"))
+        {
+
+            leftwalled = true;
+        }
+
+        if (other.CompareTag("rightwall"))
+        {
+
+            rightwalled = true;
+        }
+
+
+    }
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "sol")
+        if (other.CompareTag("sol"))
         {
 
             grounded = false;
+        }
+
+        if (other.CompareTag("leftwall"))
+        {
+
+            leftwalled = false;
+        }
+
+        if (other.CompareTag("rightwall"))
+        {
+
+            rightwalled = false;
         }
     }
 }

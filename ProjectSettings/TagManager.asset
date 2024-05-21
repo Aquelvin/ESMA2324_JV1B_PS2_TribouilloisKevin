@@ -11,6 +11,8 @@ TagManager:
   - downlimit
   - itbox_player
   - laser
+  - leftwall
+  - rightwall
   layers:
   - Default
   - TransparentFX
