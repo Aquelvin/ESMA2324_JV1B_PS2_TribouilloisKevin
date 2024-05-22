@@ -13,6 +13,7 @@ TagManager:
   - laser
   - leftwall
   - rightwall
+  - follow_goomba
   layers:
   - Default
   - TransparentFX

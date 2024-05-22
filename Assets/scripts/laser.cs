@@ -21,7 +21,7 @@ public class Laser : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player") && !other.CompareTag("laser") && !other.CompareTag("itbox_player") && !other.CompareTag("leftlimit") && !other.CompareTag("rightlimit") && !other.CompareTag("uplimit") && !other.CompareTag("downlimit"))
+        if (!other.CompareTag("Player") && !other.CompareTag("laser") && !other.CompareTag("itbox_player") && !other.CompareTag("leftlimit") && !other.CompareTag("rightlimit") && !other.CompareTag("uplimit") && !other.CompareTag("downlimit") && !other.CompareTag("follow_goomba"))
         { 
             Destroy(gameObject);
         }

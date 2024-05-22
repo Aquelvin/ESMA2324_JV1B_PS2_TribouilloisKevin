@@ -22,19 +22,20 @@ public class patern_goomba : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (toleft)
-        {
+            if (toleft)
+            {
 
                 rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
 
-        }
+            }
 
-        else if (!toleft)
-        {
-            
+            else if (!toleft)
+            {
+
                 rgbd.velocity = new Vector2(speed, rgbd.velocity.y);
-           
-        }
+
+            }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -50,7 +51,7 @@ public class patern_goomba : MonoBehaviour
             toleft = true;
           
         }
-
+       
 
     }
 }
