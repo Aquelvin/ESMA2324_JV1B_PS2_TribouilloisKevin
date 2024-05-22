@@ -27,6 +27,8 @@ public class deplacements : MonoBehaviour
 
     public bool rightwalled = false;
 
+    public bool nospeed = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -119,8 +121,16 @@ public class deplacements : MonoBehaviour
                 //gameObject.GetComponent<Animator>().Play("JUMP");
             //}
         }
+        if (rgbd.velocity == new Vector2(0f, rgbd.velocity.y))
+        {
+            nospeed = true;
 
+        }
 
+        else
+        {
+            nospeed = false;
+        }
     }
 
     

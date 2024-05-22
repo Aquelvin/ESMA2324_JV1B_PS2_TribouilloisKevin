@@ -11,22 +11,25 @@ public class parallax : MonoBehaviour
     [SerializeField]
     private Rigidbody2D rgbd;
 
- 
+    deplacements dontmove;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        dontmove = FindObjectOfType<deplacements>();
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+        if (dontmove.nospeed == true)
+        {
+            rgbd.velocity = new Vector2(0f, 0f);
+        }
 
 
-
-
-        if (Input.GetKey(leftbutton))
+        else if (Input.GetKey(leftbutton))
         {
 
             rgbd.AddForce(Vector2.left);
@@ -47,6 +50,8 @@ public class parallax : MonoBehaviour
             }
 
         }
+        
+
 
         else
         {
