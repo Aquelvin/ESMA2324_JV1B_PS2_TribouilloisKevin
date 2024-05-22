@@ -49,22 +49,22 @@ public class deplacements : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(jumpbutton) && leftwalled)
+        else if (Input.GetKeyDown(jumpbutton) && leftwalled)
         {
 
-            rgbd.velocity = new Vector2(15, 8);
+            rgbd.velocity = new Vector2(10, 8);
 
         }
 
-        if (Input.GetKeyDown(jumpbutton) && rightwalled)
+        else if (Input.GetKeyDown(jumpbutton) && rightwalled)
         {
 
-            rgbd.velocity = new Vector2(-15, 8);
+            rgbd.velocity = new Vector2(-10, 8);
 
         }
 
 
-        if (Input.GetKey(leftbutton))
+        else if (Input.GetKey(leftbutton))
         {
             toleft = true;
             hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
@@ -108,7 +108,7 @@ public class deplacements : MonoBehaviour
             //gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
 
-        else
+        else if(grounded)
         {
             rgbd.velocity = new Vector2(0f, rgbd.velocity.y);
             //if (grounded)
@@ -136,6 +136,29 @@ public class deplacements : MonoBehaviour
     
 
     private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("sol"))
+        {
+
+            grounded = true;
+        }
+
+        if (other.CompareTag("leftwall"))
+        {
+
+            leftwalled = true;
+        }
+
+        if (other.CompareTag("rightwall"))
+        {
+
+            rightwalled = true;
+        }
+
+
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("sol"))
         {
