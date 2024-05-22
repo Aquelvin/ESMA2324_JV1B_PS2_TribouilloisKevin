@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ShootPlayer : MonoBehaviour
 {
-    public Transform UpSpawn;
+    
     public Transform LeftSpawn;
     public Transform RightSpawn;
 
@@ -22,8 +22,6 @@ public class ShootPlayer : MonoBehaviour
 
     [SerializeField]
     private KeyCode fire = KeyCode.LeftShift;
-    [SerializeField]
-    private KeyCode fireup = KeyCode.CapsLock;
 
 
     deplacements droite;
@@ -52,15 +50,7 @@ public class ShootPlayer : MonoBehaviour
                 Shoot(RightSpawn, new Vector2(1, 0));
             }
         }
-        else if (canShoot && Input.GetKey(fireup))
-        {
-
-                Debug.Log("up");
-         
-            Shoot(UpSpawn, new Vector2(0, 1));
-
-            
-        }
+        
     }
 
 
