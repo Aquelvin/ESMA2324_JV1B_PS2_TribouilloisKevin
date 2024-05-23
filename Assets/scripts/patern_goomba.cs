@@ -10,31 +10,40 @@ public class patern_goomba : MonoBehaviour
 
     [SerializeField] private float speed;
 
-
+    player_detection detected;
 
     public Rigidbody2D rgbd;
     // Start is called before the first frame update
     void Start()
     {
-
+        detected = FindObjectOfType<player_detection>();
     }
 
     // Update is called once per frame
     void Update()
     {
-            if (toleft)
-            {
+        if (detected.playerdetected)
+        {
+            rgbd.velocity = new Vector2(0, 0);
+        }
 
-                rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
+        else
+                {
+                    if (toleft)
+                                {
 
-            }
+                                    rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
 
-            else if (!toleft)
-            {
+                                }
 
-                rgbd.velocity = new Vector2(speed, rgbd.velocity.y);
+                                else if (!toleft)
+                                {
 
-            }
+                                    rgbd.velocity = new Vector2(speed, rgbd.velocity.y);
+
+                                }
+                }
+            
         
     }
 

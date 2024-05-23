@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaserUp : MonoBehaviour
+public class Lasersoldier : MonoBehaviour
 {
 
-    public float timeToDeath= 1f;
+
+    public float timeToDeath = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +18,13 @@ public class LaserUp : MonoBehaviour
         yield return new WaitForSeconds(timeToDeath);
         Destroy(gameObject);
     }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player") && !other.CompareTag("laser") && !other.CompareTag("itbox_player") && !other.CompareTag("leftlimit") && !other.CompareTag("rightlimit") && !other.CompareTag("uplimit") && !other.CompareTag("downlimit") && !other.CompareTag("follow_goomba") && !other.CompareTag("not_impact_by_laser"))
+        if (!other.CompareTag("Player") && !other.CompareTag("laser") && !other.CompareTag("itbox_player") && !other.CompareTag("leftlimit") && !other.CompareTag("rightlimit") && !other.CompareTag("uplimit") && !other.CompareTag("downlimit") && !other.CompareTag("follow_goomba"))
         {
             Destroy(gameObject);
         }
 
     }
-
 }
