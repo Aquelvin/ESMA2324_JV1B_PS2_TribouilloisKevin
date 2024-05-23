@@ -5,7 +5,7 @@ public class compteur : MonoBehaviour
 {
     //public int requiredEliminations = 3; // Nombre d'ennemis à tuer pour permettre le changement de scène
 
-    public int eliminationCount = 0; // Compteur d'éliminations
+    public int crystalcount = 0; // Compteur d'éliminations
 
     // Fonction pour augmenter le compteur d'éliminations
     public void IncreaseEliminationCount()
@@ -22,7 +22,7 @@ public class compteur : MonoBehaviour
     {
         if (other.CompareTag("crystal"))
         {
-            eliminationCount += 1;
+            crystalcount += 1;
         }
     }
 }
