@@ -20,8 +20,7 @@ public class ShootSoldier : MonoBehaviour
     private bool canShoot = true;
 
 
-    [SerializeField]
-    private KeyCode fire = KeyCode.LeftShift;
+
 
 
     deplacements droite;
