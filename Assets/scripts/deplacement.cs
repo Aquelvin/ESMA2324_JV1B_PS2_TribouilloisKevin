@@ -42,7 +42,7 @@ public class deplacements : MonoBehaviour
         if (Input.GetKeyDown(jumpbutton) && grounded)
         {
             
-            rgbd.velocity = new Vector2(rgbd.velocity.x, 8);
+            rgbd.velocity = new Vector2(rgbd.velocity.x, 9);
             grounded = false;
             //gameObject.GetComponent<Animator>().Play("JUMP");
             
@@ -69,9 +69,15 @@ public class deplacements : MonoBehaviour
             toleft = true;
             hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
             rgbd.AddForce(Vector2.left);
-            if (rgbd.velocity.x < -6f)
+
+            if (rgbd.velocity.x > -3f)
             {
-                rgbd.velocity = new Vector2(-6f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(-3f, rgbd.velocity.y);
+            }
+
+            if (rgbd.velocity.x < -7f)
+            {
+                rgbd.velocity = new Vector2(-7f, rgbd.velocity.y);
             }
             //if (grounded)
             //{
@@ -90,9 +96,14 @@ public class deplacements : MonoBehaviour
             hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
             rgbd.AddForce(Vector2.right);
 
-            if (rgbd.velocity.x > 6f)
+            if (rgbd.velocity.x < 3f)
             {
-                rgbd.velocity = new Vector2(6f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(3f, rgbd.velocity.y);
+            }
+
+            if (rgbd.velocity.x > 7f)
+            {
+                rgbd.velocity = new Vector2(7f, rgbd.velocity.y);
             }
 
             //if (grounded)
