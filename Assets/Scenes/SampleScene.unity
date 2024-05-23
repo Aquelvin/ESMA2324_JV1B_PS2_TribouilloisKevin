@@ -4419,7 +4419,7 @@ MonoBehaviour:
   Laser: {fileID: 2581151992878492956, guid: 1b1b08c0094b03c43a1459e4d63bb350, type: 3}
   shotSpeed: 8
   laserRate: 2
-  range: 2
+  range: 1.5
   fire: 304
 --- !u!114 &1816661899
 MonoBehaviour:
@@ -4452,7 +4452,7 @@ MonoBehaviour:
   Upspawn: {fileID: 1388668909}
   LaserUp: {fileID: 1016716351054436868, guid: 9667453fee1086a4f82c238c2c3f5c24, type: 3}
   shotSpeed: 8
-  laserupRate: 2
+  laserupRate: 1.5
   canShoot: 1
   range: 1
 --- !u!1001 &1818568114
@@ -5648,7 +5648,7 @@ GameObject:
   - component: {fileID: 9140715582428420916}
   m_Layer: 0
   m_Name: goomba_like
-  m_TagString: Untagged
+  m_TagString: soldier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

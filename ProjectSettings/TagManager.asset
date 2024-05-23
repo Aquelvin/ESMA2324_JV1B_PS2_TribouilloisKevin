@@ -15,6 +15,8 @@ TagManager:
   - rightwall
   - follow_goomba
   - not_impact_by_laser
+  - soldier
+  - lasersoldier
   layers:
   - Default
   - TransparentFX
