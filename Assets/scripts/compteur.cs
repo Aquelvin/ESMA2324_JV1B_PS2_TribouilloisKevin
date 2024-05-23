@@ -9,16 +9,23 @@ public class compteur : MonoBehaviour
 
     public bool cardone = false;
 
-    // Fonction pour augmenter le compteur d'éliminations
-    public void IncreaseEliminationCount()
-    {
-        
+    public bool zone_1_unlock = false;
 
-        // Vérifier si le nombre requis d'éliminations est atteint
-        //if (eliminationCount >= requiredEliminations)
+    // Fonction pour augmenter le compteur d'éliminations
+
+
+    void Start()
+    {
 
     }
 
+    void Update()
+    {
+        if (crystalcount <= 0)
+        {
+            crystalcount = 0;
+        }
+    }
     // Fonction pour changer de scène
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -29,6 +36,17 @@ public class compteur : MonoBehaviour
         if (other.CompareTag("card"))
         {
             cardone = true;
+        }
+
+        if (other.CompareTag("porte_1") && crystalcount == 4 && cardone)
+        {
+            if (!zone_1_unlock)
+            {
+                Debug.Log("U");
+                crystalcount -= 4;
+                zone_1_unlock = true;
+            }
+
         }
     }
 }

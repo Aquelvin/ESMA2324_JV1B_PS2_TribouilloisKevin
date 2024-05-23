@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/play button.unity
     guid: 02e9d5c9ef86e8d48acae3d9967607bf
   - enabled: 1
+    path: Assets/Scenes/charachter.unity
+    guid: f63b349e68c0f1248b6e91ba583883da
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

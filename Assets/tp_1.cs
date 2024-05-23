@@ -10,10 +10,14 @@ public class tp_1 : MonoBehaviour
 
     compteur price;
 
+
+    public bool enteredtp1 = false;
+
     // Start is called before the first frame update
     void Start()
     {
         price = FindObjectOfType<compteur>();
+
     }
 
     // Update is called once per frame
@@ -24,9 +28,23 @@ public class tp_1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone)
+        if (!price.zone_1_unlock)
         {
-            SceneManager.LoadScene(2);
+            if (other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone)
+                    {
+                        SceneManager.LoadScene(3);
+                        
+
+                        enteredtp1 = true; 
+
+                    }
         }
+
+        if (price.zone_1_unlock)
+        {
+                SceneManager.LoadScene(3);
+        }
+
+
     }
 }

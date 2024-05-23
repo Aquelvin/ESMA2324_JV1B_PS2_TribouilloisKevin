@@ -19,6 +19,8 @@ TagManager:
   - lasersoldier
   - crystal
   - card
+  - porte_1
+  - porte_0
   layers:
   - Default
   - TransparentFX
