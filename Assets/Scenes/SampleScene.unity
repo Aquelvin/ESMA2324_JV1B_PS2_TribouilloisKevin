@@ -5741,8 +5741,8 @@ MonoBehaviour:
   RightSpawn: {fileID: 848216595}
   Laserennemi: {fileID: 5996666424110478361, guid: 4515096b33f402c4f887911b4f6ff9f3, type: 3}
   shotSpeed: 3
-  laserRate: 1
-  range: 2.5
+  laserRate: 0.5
+  range: 5
   fire: 304
 --- !u!114 &9140715582428420915
 MonoBehaviour:
