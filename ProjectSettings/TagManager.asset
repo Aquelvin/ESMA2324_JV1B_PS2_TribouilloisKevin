@@ -18,6 +18,7 @@ TagManager:
   - soldier
   - lasersoldier
   - crystal
+  - card
   layers:
   - Default
   - TransparentFX

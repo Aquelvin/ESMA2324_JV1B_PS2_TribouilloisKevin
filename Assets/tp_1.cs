@@ -24,7 +24,7 @@ public class tp_1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && price.crystalcount >= 4)
+        if (other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone)
         {
             SceneManager.LoadScene(2);
         }

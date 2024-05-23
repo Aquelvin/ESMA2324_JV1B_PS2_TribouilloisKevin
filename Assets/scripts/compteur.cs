@@ -7,6 +7,8 @@ public class compteur : MonoBehaviour
 
     public int crystalcount = 0; // Compteur d'éliminations
 
+    public bool cardone = false;
+
     // Fonction pour augmenter le compteur d'éliminations
     public void IncreaseEliminationCount()
     {
@@ -23,6 +25,10 @@ public class compteur : MonoBehaviour
         if (other.CompareTag("crystal"))
         {
             crystalcount += 1;
+        }
+        if (other.CompareTag("card"))
+        {
+            cardone = true;
         }
     }
 }
