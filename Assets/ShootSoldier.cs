@@ -37,7 +37,7 @@ public class ShootSoldier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canShoot && detected.playerdetected && Input.GetKey(fire))
+        if (canShoot && detected.playerdetected)
         {
 
             //Left

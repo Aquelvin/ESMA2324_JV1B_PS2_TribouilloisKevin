@@ -4751,8 +4751,8 @@ Transform:
   m_GameObject: {fileID: 2098864095}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.04429199, y: 0.19959648, z: 0}
-  m_LocalScale: {x: 0.4036333, y: 6.5421453, z: 1}
+  m_LocalPosition: {x: 0.04429199, y: 2.2768, z: 0}
+  m_LocalScale: {x: 4.5579886, y: 8.668343, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4556115147473161675}
@@ -4885,7 +4885,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.043137256}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5740,9 +5740,9 @@ MonoBehaviour:
   LeftSpawn: {fileID: 1392778437}
   RightSpawn: {fileID: 848216595}
   Laserennemi: {fileID: 5996666424110478361, guid: 4515096b33f402c4f887911b4f6ff9f3, type: 3}
-  shotSpeed: 5
+  shotSpeed: 3
   laserRate: 1
-  range: 2
+  range: 2.5
   fire: 304
 --- !u!114 &9140715582428420915
 MonoBehaviour:
