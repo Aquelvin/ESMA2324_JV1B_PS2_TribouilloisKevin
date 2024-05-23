@@ -17,6 +17,7 @@ TagManager:
   - not_impact_by_laser
   - soldier
   - lasersoldier
+  - crystal
   layers:
   - Default
   - TransparentFX
