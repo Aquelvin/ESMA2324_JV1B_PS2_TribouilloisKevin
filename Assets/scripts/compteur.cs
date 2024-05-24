@@ -38,7 +38,7 @@ public class compteur : MonoBehaviour
             cardone = true;
         }
 
-        if (other.CompareTag("porte_1") && crystalcount == 4 && cardone)
+        if (other.CompareTag("porte_1") && crystalcount >= 4 && cardone)
         {
             if (!zone_1_unlock)
             {
