@@ -188,6 +188,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a42cceafb3479da4590f94e3043577be, type: 3}
+--- !u!1 &1134570134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3576887171026747226, guid: 018e76c5dd7bac44cae96e04f99826f8, type: 3}
+  m_PrefabInstance: {fileID: 2080827229}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &1529292125 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 6377330690163683747, guid: a42cceafb3479da4590f94e3043577be, type: 3}
@@ -201,6 +206,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 945374738832368756, guid: 018e76c5dd7bac44cae96e04f99826f8, type: 3}
+      propertyPath: orthographic size
+      value: 15.13594
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505682109459671666, guid: 018e76c5dd7bac44cae96e04f99826f8, type: 3}
+      propertyPath: perso
+      value: 
+      objectReference: {fileID: 1134570134}
+    - target: {fileID: 4505682109459671666, guid: 018e76c5dd7bac44cae96e04f99826f8, type: 3}
+      propertyPath: lifecount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5474626137280100657, guid: 018e76c5dd7bac44cae96e04f99826f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4

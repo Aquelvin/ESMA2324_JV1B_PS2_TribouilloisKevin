@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 328389910}
   m_Layer: 0
   m_Name: Teemo_Collider
-  m_TagString: Untagged
+  m_TagString: mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1379,8 +1379,8 @@ Transform:
   m_GameObject: {fileID: 462384353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.63805, y: 22.255415, z: 0.21386084}
-  m_LocalScale: {x: 7.0045695, y: 0.57115996, z: 1}
+  m_LocalPosition: {x: -42.6228, y: 22.255415, z: 0.21386084}
+  m_LocalScale: {x: 6.8512855, y: 0.57115996, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 711025937}
@@ -3869,31 +3869,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1535658444036121910, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4356447515395092621, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6271702608934244165, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Name
       value: flying mob
       objectReference: {fileID: 0}
+    - target: {fileID: 6271702608934244165, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
+      propertyPath: m_TagString
+      value: mob
+      objectReference: {fileID: 0}
     - target: {fileID: 7021505961690519826, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8349513593159330822, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8549297106309017367, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9173456669406994606, guid: bcf4e088a06c82a4399798c49c6e54e7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

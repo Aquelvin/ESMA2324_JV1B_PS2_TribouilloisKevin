@@ -21,6 +21,8 @@ TagManager:
   - card
   - porte_1
   - porte_0
+  - mob
+  - heart_inside
   layers:
   - Default
   - TransparentFX
