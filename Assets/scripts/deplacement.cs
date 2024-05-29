@@ -53,14 +53,14 @@ public class deplacements : MonoBehaviour
         {
 
             rgbd.velocity = new Vector2(10, 8);
-
+            hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
         }
 
         else if (Input.GetKeyDown(jumpbutton) && rightwalled)
         {
 
             rgbd.velocity = new Vector2(-10, 8);
-
+            hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
         }
 
 
