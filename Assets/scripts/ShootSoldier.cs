@@ -40,14 +40,14 @@ public class ShootSoldier : MonoBehaviour
         {
 
             //Left
-            if (droite.toleft)
+            if (GameObject.FindGameObjectWithTag("Player").transform.position.x < gameObject.transform.position.x)//droite.tolef //gameObject.transform.position.x//droite.tolef target = GameObject.FindGameObjectWithTag("Player").transform.x;)
             {
                 Debug.Log("left");
                 Shoot(LeftSpawn, new Vector2(-1, 0));
             }
 
             //Right
-            if (!droite.toleft)
+            if (GameObject.FindGameObjectWithTag("Player").transform.position.x > gameObject.transform.position.x)
             {
                 Debug.Log("right");
                 Shoot(RightSpawn, new Vector2(1, 0));

@@ -30,6 +30,10 @@ public class BoxColliderPlatform : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.transform.SetParent(null); // Détacher le joueur de la plateforme
+
+            DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Player"));
         }
+
+        
     }
 }
