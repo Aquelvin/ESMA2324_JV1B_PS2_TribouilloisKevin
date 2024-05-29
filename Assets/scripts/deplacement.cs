@@ -29,6 +29,8 @@ public class deplacements : MonoBehaviour
 
     public bool nospeed = true;
 
+    public bool canmove = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,7 @@ public class deplacements : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(jumpbutton) && grounded)
+        if (Input.GetKeyDown(jumpbutton) && grounded && canmove)
         {
             
             rgbd.velocity = new Vector2(rgbd.velocity.x, 9);
@@ -49,22 +51,25 @@ public class deplacements : MonoBehaviour
         }
 
 
-        else if (Input.GetKeyDown(jumpbutton) && leftwalled)
+        else if (leftwalled && Input.GetKeyDown(jumpbutton))
         {
-
+            canmove = false;
             rgbd.velocity = new Vector2(10, 8);
             hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
+            Invoke("re_move", 0.7f);
+
         }
 
-        else if (Input.GetKeyDown(jumpbutton) && rightwalled)
+        else if (rightwalled && Input.GetKeyDown(jumpbutton))
         {
-
+            canmove = false;
             rgbd.velocity = new Vector2(-10, 8);
             hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
+            Invoke("re_move", 0.7f);
         }
 
 
-        else if (Input.GetKey(leftbutton))
+        else if (Input.GetKey(leftbutton) && canmove)
         {
             toleft = true;
             hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
@@ -90,7 +95,7 @@ public class deplacements : MonoBehaviour
             //}
             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (Input.GetKey(rightbutton))
+        else if (Input.GetKey(rightbutton) && canmove)
         {
             toleft = false;
             hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
@@ -152,18 +157,21 @@ public class deplacements : MonoBehaviour
         {
 
             grounded = true;
+            canmove = true;
         }
 
         if (other.CompareTag("leftwall"))
         {
 
             leftwalled = true;
+            
         }
 
         if (other.CompareTag("rightwall"))
         {
 
             rightwalled = true;
+            
         }
 
 
@@ -211,4 +219,11 @@ public class deplacements : MonoBehaviour
             rightwalled = false;
         }
     }
+
+    public void re_move()
+    {
+        canmove = true;
+    }
+
+   
 }

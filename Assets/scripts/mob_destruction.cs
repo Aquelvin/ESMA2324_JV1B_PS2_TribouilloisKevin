@@ -19,6 +19,7 @@ public class mob_destruction : MonoBehaviour
 
     }
 
+    /**
     // Update is called once per frame
     void Update()
     {
@@ -57,5 +58,29 @@ public class mob_destruction : MonoBehaviour
 
 
     }
-  
+    */
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("itbox_player"))
+        {
+
+            Destroy(bc2d.gameObject);
+        }
+        if (other.CompareTag("laser"))
+        {
+            Destroy(bc2d.gameObject);
+
+        }
+    }
+   // private void OnTriggerExit2D(Collider2D other)
+   // {
+     //   if (other.CompareTag("itbox_player"))
+       // {
+
+       //     aportee = false;
+       // }
+
+
+    //}
+
 }

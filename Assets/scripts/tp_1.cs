@@ -28,12 +28,15 @@ public class tp_1 : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (!price.zone_1_unlock && Input.GetKeyDown(porte))
+
+        if (!price.zone_1_unlock)
         {
-            if (   other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone )
+            Debug.Log("!price");
+            if (   Input.GetKeyDown(porte) && other.CompareTag("Player") && price.crystalcount >= 0 && price.cardone)
                     {
+                Debug.Log("passage1");
                         SceneManager.LoadScene(3);
                         
 
@@ -44,7 +47,13 @@ public class tp_1 : MonoBehaviour
 
         if (price.zone_1_unlock)
         {
+            Debug.Log("price");
+            if  (Input.GetKeyDown(porte))
+                {
+                Debug.Log("passage2");
                 SceneManager.LoadScene(3);
+                }
+                
         }
 
 
