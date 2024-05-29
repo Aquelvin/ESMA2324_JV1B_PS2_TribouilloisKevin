@@ -23,6 +23,7 @@ TagManager:
   - porte_0
   - mob
   - heart_inside
+  - heal
   layers:
   - Default
   - TransparentFX

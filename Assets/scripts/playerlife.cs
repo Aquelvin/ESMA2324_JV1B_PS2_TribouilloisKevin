@@ -59,6 +59,18 @@ public class playerlife : MonoBehaviour
 
 
         }
+        else if (other.CompareTag("heal"))
+        {
+            Debug.Log("heal");
+            lifecount += 1;
+            if (lifecount >= 5)
+            {
+                lifecount = 5;
+            }
+            
+
+
+        }
     }
 
 }
