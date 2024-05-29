@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class tp_1 : MonoBehaviour
 {
+    [SerializeField]
+    private KeyCode porte = KeyCode.E;
     public BoxCollider2D bc;
 
     compteur price;
@@ -28,9 +30,9 @@ public class tp_1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!price.zone_1_unlock)
+        if (!price.zone_1_unlock && Input.GetKeyDown(porte))
         {
-            if (other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone)
+            if (   other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone )
                     {
                         SceneManager.LoadScene(3);
                         
