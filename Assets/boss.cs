@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class boss : MonoBehaviour
 {
@@ -17,11 +18,15 @@ public class boss : MonoBehaviour
     public bool test_button = false;
 
 
+    [SerializeField] private int nmb;
+
     //ATTAQUE
     //[SerializeField] private Collider2D hitbox;
     [SerializeField] private GameObject hitbox;
     [SerializeField] private Transform hitboxtransform;
     private float atk_time = 0.2f;
+
+    private float pausenumber = 6f;
 
     private float atk_cooldown =1f;
     //private float atk_cooldown;
@@ -37,7 +42,7 @@ public class boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        StartCoroutine(Nombregenerate());
 
         if (toleft)
         {
@@ -121,5 +126,25 @@ public class boss : MonoBehaviour
         yield return new WaitForSeconds(atk_cooldown);
         can_atk = true;
     }
+
+    private IEnumerator Nombregenerate()
+    {
+        yield return new WaitForSeconds(pausenumber);
+        
+        Debug.Log("number");
+        numbergenerator();
+
+        yield return new WaitForSeconds(pausenumber);
+    }
+    void numbergenerator()
+    {
+
+        for (int j = 0; j < 4; j++)
+        {
+           nmb = UnityEngine.Random.Range(1,4); // returns random integers >= 10 and < 20
+        }
+
+    }
+
 }
 
