@@ -26,14 +26,14 @@ public class soldierlife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (aportee)
-        {
-            if (Input.GetKeyDown(attack))
-            {
-                nombrevie -= vieperdue;
-            }
+        //if (aportee)
+        //{
+          //  if (Input.GetKeyDown(attack))
+           // {
+             //   nombrevie -= vieperdue;
+            //}
 
-        }
+        //}
 
 
 
@@ -48,8 +48,8 @@ public class soldierlife : MonoBehaviour
     {
         if (other.CompareTag("itbox_player"))
         {
+            nombrevie -= vieperdue;
 
-            aportee = true;
         }
         if (other.CompareTag("laser"))
         {
@@ -57,16 +57,16 @@ public class soldierlife : MonoBehaviour
 
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("itbox_player"))
-        {
+    //private void OnTriggerExit2D(Collider2D other)
+    //{
+      //  if (other.CompareTag("itbox_player"))
+       // {
 
-            aportee = false;
-        }
+       //     aportee = false;
+       // }
 
  
-    }
+    //}
 
     void Death()
     {

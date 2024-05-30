@@ -55,7 +55,7 @@ public class deplacements : MonoBehaviour
         {
             canmove = false;
             rgbd.velocity = new Vector2(10, 8);
-            hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(1.0584f, -0.0259f, 0f);
             Invoke("re_move", 0.7f);
 
         }
@@ -64,7 +64,7 @@ public class deplacements : MonoBehaviour
         {
             canmove = false;
             rgbd.velocity = new Vector2(-10, 8);
-            hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(-1.0584f, -0.0259f, 0f);
             Invoke("re_move", 0.7f);
         }
 
@@ -72,7 +72,7 @@ public class deplacements : MonoBehaviour
         else if (Input.GetKey(leftbutton) && canmove)
         {
             toleft = true;
-            hitbox.localPosition = new Vector3(-0.4896f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(-1.0584f, -0.0259f, 0f);
             rgbd.AddForce(Vector2.left);
 
             if (rgbd.velocity.x > -3f)
@@ -98,7 +98,7 @@ public class deplacements : MonoBehaviour
         else if (Input.GetKey(rightbutton) && canmove)
         {
             toleft = false;
-            hitbox.localPosition = new Vector3(0.4896f, 0.005f, 0f);
+            hitbox.localPosition = new Vector3(1.0584f, -0.0259f, 0f);
             rgbd.AddForce(Vector2.right);
 
             if (rgbd.velocity.x < 3f)

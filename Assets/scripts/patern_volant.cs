@@ -51,6 +51,7 @@ public class patern_volant : MonoBehaviour
     {
         if (other.CompareTag("leftlimit"))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             toleft = false;
             if (to_up)
             {
@@ -64,6 +65,7 @@ public class patern_volant : MonoBehaviour
 
         if (other.CompareTag("rightlimit"))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             toleft = true;
             if (to_up)
             {

@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 10bdae316ee491341911191545632abc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite sheet finale 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12156
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c631380ea573b04bb0ea467cd710298
+      internalID: 1642802596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_1
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 12156
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6674c9349cd69de41986778cb9e91f4b
+      internalID: 138739513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_2
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 12156
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933200026f03ca4f83c6d58f47a14f6
+      internalID: 1880409788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_3
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 12156
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c82f8a41f6744d9528c7be29af292
+      internalID: -1738814853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_4
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 12156
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e056634d9304b0f4db1ee99b7b5e0ce0
+      internalID: 144888017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10130
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b46332b5d6db6142b53c29b2a252741
+      internalID: 429928810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_6
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 10130
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b149cdcfd9cbc8e43a043ca37491ec64
+      internalID: 185774178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_7
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 10130
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d684f51d47fa5514aa84f7a423147ac5
+      internalID: 1308169317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_8
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 10130
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35985d43dcba394da13b4bd45e88bf2
+      internalID: 185324024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_9
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 10130
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ef132278b7180458bbbe3c5e3b299e
+      internalID: -974009445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8104
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3804d722c94d844ab3cf8bab2a1b80
+      internalID: -2105389865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_11
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 8104
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445e65b5529d53c48863f1d7994828ea
+      internalID: 590855688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_12
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 8104
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ecc21e42181f14eae0458a9da60b1b
+      internalID: -1156970103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_13
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 8104
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a099c2a378e7a449c670a9640445a0
+      internalID: 953648215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_14
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 8104
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e9e184a113feb48a581464f54d6b9c
+      internalID: 1852201607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6078
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0b6650d2fdbf34bba6b15e95b2a079
+      internalID: -439132678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_16
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 6078
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bcee6816a086b4087b73fc22f83f32
+      internalID: 706271718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_17
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 6078
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24822d32fae33104c912d83eacbd778c
+      internalID: -1351446333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_18
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 6078
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7845d29b5fae7849b05678ba1c2a4e0
+      internalID: -1611333677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_19
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 6078
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab568acb96395464f8c31cc7bd85a55e
+      internalID: -1528248373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4052
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed586f96df5fc5747b5cf8f7a8b4f3e9
+      internalID: 682994722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_21
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 4052
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea2d0e9a951108468620b6f5884a1af
+      internalID: 2033871276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_22
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 4052
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfabc84f0890444a83b9e9dbe4aac87
+      internalID: 1919599552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_23
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 4052
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18778cd29c63af14db5cdcd6cd893342
+      internalID: 263035625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_24
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 4052
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab146a9248e504d4fa8adb58a033d44b
+      internalID: 402055959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2026
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8f35088d01a3f45b90f98788b12524
+      internalID: 604852055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_26
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 2026
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7db465732c6543b09f00044873f1c
+      internalID: -1138574233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_27
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 2026
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecbd6155aaa24e4791c1cf1ac7f5ebe
+      internalID: -118286658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_28
+      rect:
+        serializedVersion: 2
+        x: 8574
+        y: 2026
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ccd21f1703f954682ad5112f8fa0de
+      internalID: 1577269977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_29
+      rect:
+        serializedVersion: 2
+        x: 11432
+        y: 2026
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4388f9b902e544f8e57e1dc1761799
+      internalID: 1205356237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d4441c23bdf541b65556efa4932af
+      internalID: 917944470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet finale 3_31
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 0
+        width: 2858.2
+        height: 2026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d1f07a923ef0d449be4b36faa039c0
+      internalID: 2027569639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sprite sheet finale 3_0: 1642802596
+      sprite sheet finale 3_1: 138739513
+      sprite sheet finale 3_10: -2105389865
+      sprite sheet finale 3_11: 590855688
+      sprite sheet finale 3_12: -1156970103
+      sprite sheet finale 3_13: 953648215
+      sprite sheet finale 3_14: 1852201607
+      sprite sheet finale 3_15: -439132678
+      sprite sheet finale 3_16: 706271718
+      sprite sheet finale 3_17: -1351446333
+      sprite sheet finale 3_18: -1611333677
+      sprite sheet finale 3_19: -1528248373
+      sprite sheet finale 3_2: 1880409788
+      sprite sheet finale 3_20: 682994722
+      sprite sheet finale 3_21: 2033871276
+      sprite sheet finale 3_22: 1919599552
+      sprite sheet finale 3_23: 263035625
+      sprite sheet finale 3_24: 402055959
+      sprite sheet finale 3_25: 604852055
+      sprite sheet finale 3_26: -1138574233
+      sprite sheet finale 3_27: -118286658
+      sprite sheet finale 3_28: 1577269977
+      sprite sheet finale 3_29: 1205356237
+      sprite sheet finale 3_3: -1738814853
+      sprite sheet finale 3_30: 917944470
+      sprite sheet finale 3_31: 2027569639
+      sprite sheet finale 3_4: 144888017
+      sprite sheet finale 3_5: 429928810
+      sprite sheet finale 3_6: 185774178
+      sprite sheet finale 3_7: 1308169317
+      sprite sheet finale 3_8: 185324024
+      sprite sheet finale 3_9: -974009445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

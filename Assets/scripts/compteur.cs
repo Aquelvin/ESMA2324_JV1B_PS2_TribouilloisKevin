@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class compteur : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class compteur : MonoBehaviour
     public bool cardone = false;
 
     public bool zone_1_unlock = false;
+
+
+    public Text crystalacount;
 
     // Fonction pour augmenter le compteur d'éliminations
 
@@ -53,4 +57,5 @@ public class compteur : MonoBehaviour
 
         }
     }
+
 }

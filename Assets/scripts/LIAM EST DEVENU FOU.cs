@@ -7,20 +7,21 @@ public class LIAMESTDEVENUFOU : MonoBehaviour
     
     //ATTAQUE
     //[SerializeField] private Collider2D hitbox;
-    private float atk_time = 0.2f;
+    private float atk_time = 0.1f;
     //private float atk_cooldown;
-    public bool can_atk = true;
+    [SerializeField] private bool can_atk;
 
     [SerializeField] private GameObject hitbox;
     [SerializeField] private Transform hitboxtransform;
 
-    private float atk_cooldown = 1f;
+    private float atk_cooldown = 0.5f;
 
 
     private void Start()
     {
         //hitbox.enabled = false;
         hitbox.SetActive(false);
+        can_atk = true;
     }
 
     private void Update()
