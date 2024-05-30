@@ -52,7 +52,7 @@ public class playerlife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("lasersoldier"))
+        if (other.CompareTag("lasersoldier") || other.CompareTag("attack_boss"))
         {
             Debug.Log("touch)");
             PerdPv();

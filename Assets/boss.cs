@@ -21,7 +21,7 @@ public class boss : MonoBehaviour
     //[SerializeField] private Collider2D hitbox;
     [SerializeField] private GameObject hitbox;
     [SerializeField] private Transform hitboxtransform;
-    private float atk_time = 1f;
+    private float atk_time = 0.2f;
 
     private float atk_cooldown =1f;
     //private float atk_cooldown;
@@ -54,11 +54,20 @@ public class boss : MonoBehaviour
 
         }
         
-        if (test_button)
-        {
-            
+        
+            if (GameObject.FindGameObjectWithTag("Player").transform.position.x < gameObject.transform.position.x)
+            {
+                hitboxtransform.localPosition = new Vector3(-3.969f, 2.9442f, 0f);
+            }
+
+            else if (GameObject.FindGameObjectWithTag("Player").transform.position.x > gameObject.transform.position.x)
+            {
+                hitboxtransform.localPosition = new Vector3(3.969f, 2.9442f, 0f);
+            }
             attack();
-        }
+        
+
+
 
 
     }
@@ -94,6 +103,7 @@ public class boss : MonoBehaviour
     {
         if (can_atk)
         {
+           
             Debug.Log("test2");
             StartCoroutine(Atk());
         }

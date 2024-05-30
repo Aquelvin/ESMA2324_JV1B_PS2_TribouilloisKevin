@@ -24,6 +24,7 @@ TagManager:
   - mob
   - heart_inside
   - heal
+  - attack_boss
   layers:
   - Default
   - TransparentFX
