@@ -13,6 +13,8 @@ public class compteur : MonoBehaviour
 
     // Fonction pour augmenter le compteur d'éliminations
 
+    [SerializeField]
+    private KeyCode porte = KeyCode.E;
 
     void Start()
     {
@@ -37,8 +39,10 @@ public class compteur : MonoBehaviour
         {
             cardone = true;
         }
-
-        if (other.CompareTag("porte_1") && crystalcount >= 4 && cardone)
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    { 
+        if (other.CompareTag("porte_1") && crystalcount >= 4 && cardone && Input.GetKeyDown(porte))
         {
             if (!zone_1_unlock)
             {
