@@ -1462,6 +1462,7 @@ MonoBehaviour:
   crystalcount: 0
   cardone: 0
   zone_1_unlock: 0
+  porte: 101
 --- !u!114 &8603123059434478941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,8 +1497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2bb648b36f75f14587f8137a0dce90e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitbox: {fileID: 1547116315260383683}
   can_atk: 0
+  hitbox: {fileID: 8242140497921973127}
+  hitboxtransform: {fileID: 2287883225341960637}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

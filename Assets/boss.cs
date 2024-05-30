@@ -104,14 +104,14 @@ public class boss : MonoBehaviour
         if (can_atk)
         {
            
-            Debug.Log("test2");
+            
             StartCoroutine(Atk());
         }
     }
 
     private IEnumerator Atk()
     {
-        Debug.Log("test3");
+        
         //hitbox.enabled = true;
         hitbox.SetActive(true);
         can_atk = false;
