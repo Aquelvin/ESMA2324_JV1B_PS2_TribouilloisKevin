@@ -44,15 +44,26 @@ public class deplacements : MonoBehaviour
         if (Input.GetKeyDown(jumpbutton) && grounded && canmove)
         {
             
-            rgbd.velocity = new Vector2(rgbd.velocity.x, 9);
+            rgbd.velocity = new Vector2(rgbd.velocity.x, 10);
             grounded = false;
-            //gameObject.GetComponent<Animator>().Play("JUMP");
+            if (toleft)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<Animator>().Play("jump");
+            }
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<Animator>().Play("jump");
+            }
             
+
         }
 
 
         else if (leftwalled && Input.GetKeyDown(jumpbutton))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             canmove = false;
             rgbd.velocity = new Vector2(10, 8);
             hitbox.localPosition = new Vector3(1.0584f, -0.0259f, 0f);
@@ -62,6 +73,7 @@ public class deplacements : MonoBehaviour
 
         else if (rightwalled && Input.GetKeyDown(jumpbutton))
         {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             canmove = false;
             rgbd.velocity = new Vector2(-10, 8);
             hitbox.localPosition = new Vector3(-1.0584f, -0.0259f, 0f);
@@ -72,70 +84,76 @@ public class deplacements : MonoBehaviour
         else if (Input.GetKey(leftbutton) && canmove)
         {
             toleft = true;
-            hitbox.localPosition = new Vector3(-1.0584f, -0.0259f, 0f);
+            hitbox.localPosition = new Vector3(-5.919217f, -2f, 0f);
             rgbd.AddForce(Vector2.left);
 
-            if (rgbd.velocity.x > -3f)
+            if (rgbd.velocity.x > -5f)
             {
-                rgbd.velocity = new Vector2(-3f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(-5f, rgbd.velocity.y);
             }
 
-            if (rgbd.velocity.x < -7f)
+            if (rgbd.velocity.x < -10f)
             {
-                rgbd.velocity = new Vector2(-7f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(-10f, rgbd.velocity.y);
             }
-            //if (grounded)
-            //{
-            //gameObject.GetComponent<Animator>().Play("marche");
-            //}
+            
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            if (grounded)
+            {
+            gameObject.GetComponent<Animator>().Play("course");
+            }
 
-            //else
-            //{
-            //gameObject.GetComponent<Animator>().Play("JUMP");
-            //}
-            //gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<Animator>().Play("jump");
+            }
+            
         }
         else if (Input.GetKey(rightbutton) && canmove)
         {
             toleft = false;
-            hitbox.localPosition = new Vector3(1.0584f, -0.0259f, 0f);
+            hitbox.localPosition = new Vector3(5.919217f, -2f, 0f);
             rgbd.AddForce(Vector2.right);
 
-            if (rgbd.velocity.x < 3f)
+            if (rgbd.velocity.x < 5f)
             {
-                rgbd.velocity = new Vector2(3f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(5F, rgbd.velocity.y);
             }
 
-            if (rgbd.velocity.x > 7f)
+            if (rgbd.velocity.x > 10f)
             {
-                rgbd.velocity = new Vector2(7f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(10f, rgbd.velocity.y);
+            }
+            
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+
+            if (grounded)
+            {
+                gameObject.GetComponent<Animator>().Play("course");
             }
 
-            //if (grounded)
-            //{
-                //gameObject.GetComponent<Animator>().Play("marche");
-            //}
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<Animator>().Play("jump");
+            }
 
-            //else
-            //{
-                //gameObject.GetComponent<Animator>().Play("JUMP");
-            //}
-
-            //gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            
         }
 
         else if(grounded)
         {
             rgbd.velocity = new Vector2(0f, rgbd.velocity.y);
-            //if (grounded)
-            //{
-                //gameObject.GetComponent<Animator>().Play("AFK");
-            //}
+            if (grounded)
+            {
+                gameObject.GetComponent<Animator>().Play("course");
+            }
 
-            //else
-            //{
-                //gameObject.GetComponent<Animator>().Play("JUMP");
-            //}
+            else
+            {
+                gameObject.GetComponent<Animator>().Play("jump");
+            }
         }
         if (rgbd.velocity == new Vector2(0f, rgbd.velocity.y))
         {
