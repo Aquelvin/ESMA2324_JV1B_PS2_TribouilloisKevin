@@ -34,7 +34,7 @@ public class tp_1 : MonoBehaviour
         if (!price.zone_1_unlock)
         {
             Debug.Log("!price");
-            if (   Input.GetKeyDown(porte) && other.CompareTag("Player") && price.crystalcount >= 0 && price.cardone)
+            if (other.CompareTag("Player") && price.crystalcount >= 4 && price.cardone)
                     {
                 Debug.Log("passage1");
                         SceneManager.LoadScene(3);
@@ -47,12 +47,9 @@ public class tp_1 : MonoBehaviour
 
         if (price.zone_1_unlock)
         {
-            Debug.Log("price");
-            if  (Input.GetKeyDown(porte))
-                {
-                Debug.Log("passage2");
+
                 SceneManager.LoadScene(3);
-                }
+              
                 
         }
 

@@ -46,7 +46,7 @@ public class compteur : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D other)
     { 
-        if (other.CompareTag("porte_1") && crystalcount >= 4 && cardone && Input.GetKeyDown(porte))
+        if (other.CompareTag("porte_1") && crystalcount >= 4 && cardone )
         {
             if (!zone_1_unlock)
             {
