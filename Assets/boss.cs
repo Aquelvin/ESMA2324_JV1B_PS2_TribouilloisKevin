@@ -131,7 +131,7 @@ public class boss : MonoBehaviour
     {
         yield return new WaitForSeconds(pausenumber);
         
-        Debug.Log("number");
+        
         numbergenerator();
 
         yield return new WaitForSeconds(pausenumber);
