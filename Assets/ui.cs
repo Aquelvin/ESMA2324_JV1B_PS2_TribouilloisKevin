@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class life_ui : MonoBehaviour
 {
 
@@ -21,12 +22,16 @@ public class life_ui : MonoBehaviour
 
     public bool aportee = false;
 
+
+
     [SerializeField]
     private KeyCode breathing;
 
     public Canvas ui;
 
     playerlife counter;
+
+
 
     // Start is called before the first frame update
     void Start()

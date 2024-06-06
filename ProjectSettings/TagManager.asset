@@ -29,6 +29,7 @@ TagManager:
   - porte_2
   - porte_3
   - card3
+  - keyone
   layers:
   - Default
   - TransparentFX

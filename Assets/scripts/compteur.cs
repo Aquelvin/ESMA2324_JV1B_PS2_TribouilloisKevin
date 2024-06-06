@@ -1,9 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class compteur : MonoBehaviour
 {
+
+    [SerializeField] private Text compteur_crystal;
     //public int requiredEliminations = 3; // Nombre d'ennemis à tuer pour permettre le changement de scène
 
     public int crystalcount = 0; // Compteur d'éliminations
@@ -19,9 +23,18 @@ public class compteur : MonoBehaviour
     public bool zone_2_unlock = false;
 
     public bool zone_3_unlock = false;
+    
+    [SerializeField]  public Image cardA;
+
+    [SerializeField] public Image cardB;
+
+    [SerializeField] public Image cardC;
+
+    [SerializeField] public Image cardD;
+
+    public bool keyone = false;
 
 
-    public Text crystalacount;
 
     // Fonction pour augmenter le compteur d'éliminations
 
@@ -30,7 +43,11 @@ public class compteur : MonoBehaviour
 
     void Start()
     {
-
+        
+        cardA.enabled = false;
+        cardB.enabled = false;
+        cardC.enabled = false;
+        cardD.enabled = false;
     }
 
     void Update()
@@ -39,6 +56,7 @@ public class compteur : MonoBehaviour
         {
             crystalcount = 0;
         }
+        compteur_crystal.text = "" + crystalcount;
     }
     // Fonction pour changer de scène
     private void OnTriggerEnter2D(Collider2D other)
@@ -46,20 +64,24 @@ public class compteur : MonoBehaviour
         if (other.CompareTag("crystal"))
         {
             crystalcount += 1;
+            
         }
         if (other.CompareTag("card"))
         {
             cardone = true;
+            cardA.enabled = true;
         }
 
         if (other.CompareTag("card2"))
         {
             cardone2 = true;
+            cardB.enabled = true;
         }
 
         if (other.CompareTag("card3"))
         {
             cardone3 = true;
+            cardC.enabled = true;
         }
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -94,6 +116,12 @@ public class compteur : MonoBehaviour
                 crystalcount -= 15;
                 zone_3_unlock = true;
             }
+
+        }
+
+        if (other.CompareTag("keyone"))
+        {
+            keyone = true;
 
         }
     }
