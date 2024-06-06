@@ -8,9 +8,11 @@ public class follow : MonoBehaviour
 
     private Transform boss; // Référence au joueur
 
+    public GameObject mob;
+
     private void Start()
     {
-        boss = GameObject.FindGameObjectWithTag("soldier").transform; // Trouver le joueur
+        boss = mob.transform; // Trouver le joueur
     }
 
     private void Update()

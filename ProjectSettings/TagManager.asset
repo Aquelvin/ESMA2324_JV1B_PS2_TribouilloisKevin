@@ -30,6 +30,7 @@ TagManager:
   - porte_3
   - card3
   - keyone
+  - energy
   layers:
   - Default
   - TransparentFX
