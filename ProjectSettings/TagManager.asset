@@ -25,6 +25,10 @@ TagManager:
   - heart_inside
   - heal
   - attack_boss
+  - card2
+  - porte_2
+  - porte_3
+  - card3
   layers:
   - Default
   - TransparentFX

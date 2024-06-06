@@ -28,6 +28,7 @@ public class LIAMESTDEVENUFOU : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && can_atk)
         {
+
             Debug.Log("a attaqué");
             StartCoroutine(Atk());
         }
