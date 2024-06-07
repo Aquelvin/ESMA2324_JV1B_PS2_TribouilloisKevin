@@ -34,6 +34,8 @@ public class compteur : MonoBehaviour
 
     public bool keyone = false;
 
+    public bool keytwo = false;
+
     public bool energy = false;
 
 
@@ -125,6 +127,12 @@ public class compteur : MonoBehaviour
         {
             keyone = true;
             
+        }
+
+        if (other.CompareTag("keytwo"))
+        {
+            keytwo = true;
+
         }
 
         if (other.CompareTag("energy"))
