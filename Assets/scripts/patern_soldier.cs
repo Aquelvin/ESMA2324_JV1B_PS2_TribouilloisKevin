@@ -25,6 +25,21 @@ public class patern_soldier : MonoBehaviour
         if (detected.playerdetected)
         {
             rgbd.velocity = new Vector2(0, 0);
+            if (toleft)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<Animator>().Play("soldier afk");
+                
+
+            }
+
+            else if (!toleft)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<Animator>().Play("soldier afk");
+
+            }
+            
         }
 
         else
@@ -33,6 +48,8 @@ public class patern_soldier : MonoBehaviour
             {
 
                 rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<Animator>().Play("soldier marche");
 
             }
 
@@ -40,6 +57,8 @@ public class patern_soldier : MonoBehaviour
             {
 
                 rgbd.velocity = new Vector2(speed, rgbd.velocity.y);
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<Animator>().Play("soldier marche");
 
             }
         }
