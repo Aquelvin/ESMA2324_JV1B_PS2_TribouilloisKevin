@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &20582024
+--- !u!1001 &34278138
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -131,55 +131,242 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 158.94824
+      value: 190.43741
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4800413
+      value: -2.656331
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+--- !u!1001 &54397991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 140.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+--- !u!1001 &130372002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 117.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+--- !u!1001 &143284711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 128.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.189
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
 --- !u!1 &145306603
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,120 +497,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &181749106
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 174.13914
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.0917556
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
---- !u!1001 &234906074
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 190.24762
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.887851
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
 --- !u!1001 &280693679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -488,6 +561,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5297382867096114821, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.87698543
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297382867096114821, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8117433
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297382867096114821, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.061507285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297382867096114821, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.027685314
+      objectReference: {fileID: 0}
     - target: {fileID: 9029336810409669103, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
       propertyPath: bc2d
       value: 
@@ -497,120 +586,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
---- !u!1001 &420102834
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 199.42332
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.7629107
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
---- !u!1001 &498640755
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 218.79428
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.982005
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
 --- !u!1 &643817552
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +670,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &961837620
+--- !u!1001 &1055268489
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -703,56 +678,60 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 209.51662
+      value: 163.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3312435
+      value: 0.19497061
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
---- !u!1001 &1067779863
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+--- !u!1001 &1178980773
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -760,61 +739,65 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 167.00247
+      value: 204.02
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.887851
+      value: -6.59
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
 --- !u!61 &1253761680 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 5297382867096114821, guid: f46587cf64acecf47919ea2f49e1667e, type: 3}
   m_PrefabInstance: {fileID: 280693679}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1595894527
+--- !u!1001 &1338779662
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -822,55 +805,120 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 181.4797
+      value: 105.963
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7858984
+      value: 0.187
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+--- !u!1001 &1707358687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 152.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
 --- !u!1 &1757657620
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1044,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1819820157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 175.02687
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19497061
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
 --- !u!1 &1883572260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,67 +1430,67 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &877735945688789814
+--- !u!1001 &889690554709932259
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5469982178435670806}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 717175146198586293, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: spawn
-      value: 
-      objectReference: {fileID: 5469982178435670806}
-    - target: {fileID: 823439365134226899, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-      propertyPath: m_Name
-      value: plateforme fragile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.2816
+      value: 218.67
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18
+      value: -8.78
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+    - target: {fileID: 1232962573583808589, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570497576100680769, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: fallDelay
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387044622529235268, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
+      propertyPath: m_Name
+      value: spawn plateforme fragile chateau
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 416bbc66e4bb2de46853d6376b2379b1, type: 3}
 --- !u!4 &953637924610642351
 Transform:
   m_ObjectHideFlags: 0
@@ -1470,11 +1579,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bcd: {fileID: 9047760385552866013}
---- !u!4 &1579708317603579076 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1943064294391902277, guid: fdb9ff4ee08e26245ae0eb22cc17baff, type: 3}
-  m_PrefabInstance: {fileID: 877735945688789814}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1596592713640686600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,8 +1997,8 @@ Transform:
   m_GameObject: {fileID: 3713617316907504443}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2, y: 20.5993, z: 8.274434}
-  m_LocalScale: {x: 1, y: 66.29841, z: 1}
+  m_LocalPosition: {x: 7.27288, y: 20.5993, z: 8.274434}
+  m_LocalScale: {x: 0.85424, y: 66.29841, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5267959075924237670}
@@ -2059,7 +2163,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.032228887, y: 0.03046301}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2070,7 +2174,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.9355422, y: 1.7839842}
   m_EdgeRadius: 0
 --- !u!4 &5469982178435670806
 Transform:
@@ -2084,8 +2188,7 @@ Transform:
   m_LocalPosition: {x: 211.1, y: 10.9, z: 0}
   m_LocalScale: {x: 0.8125, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1579708317603579076}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5597314859349900122
@@ -2829,11 +2932,13 @@ SceneRoots:
   - {fileID: 5597314859349900122}
   - {fileID: 5469982178435670806}
   - {fileID: 280693679}
-  - {fileID: 498640755}
-  - {fileID: 961837620}
-  - {fileID: 420102834}
-  - {fileID: 234906074}
-  - {fileID: 1595894527}
-  - {fileID: 181749106}
-  - {fileID: 1067779863}
-  - {fileID: 20582024}
+  - {fileID: 889690554709932259}
+  - {fileID: 1178980773}
+  - {fileID: 34278138}
+  - {fileID: 1819820157}
+  - {fileID: 1055268489}
+  - {fileID: 1707358687}
+  - {fileID: 54397991}
+  - {fileID: 143284711}
+  - {fileID: 130372002}
+  - {fileID: 1338779662}
