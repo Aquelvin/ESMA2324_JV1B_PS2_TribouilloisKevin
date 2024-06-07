@@ -70,7 +70,7 @@ public class compteur : MonoBehaviour
             crystalcount += 1;
             
         }
-        if (other.CompareTag("card"))
+        if (other.CompareTag("card1"))
         {
             cardone = true;
             cardA.enabled = true;
@@ -101,7 +101,7 @@ public class compteur : MonoBehaviour
 
         }
 
-        if (other.CompareTag("porte_2") && crystalcount >= 10 && cardone)
+        if (other.CompareTag("porte_2") && crystalcount >= 10 && cardone2)
         {
             if (!zone_2_unlock)
             {
@@ -112,7 +112,7 @@ public class compteur : MonoBehaviour
 
         }
 
-        if (other.CompareTag("porte_3") && crystalcount >= 15 && cardone)
+        if (other.CompareTag("porte_3") && crystalcount >= 15 && cardone3)
         {
             if (!zone_3_unlock)
             {

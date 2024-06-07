@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class patern_soldier : MonoBehaviour
+public class patern_soldier2 : MonoBehaviour
 {
     public bool toleft = true;
 
@@ -10,13 +10,13 @@ public class patern_soldier : MonoBehaviour
 
     [SerializeField] private float speed;
 
-    player_detection detected;
+    player_detection2 detected;
 
     public Rigidbody2D rgbd;
     // Start is called before the first frame update
     void Start()
     {
-        detected = FindObjectOfType<player_detection>();
+        detected = FindObjectOfType<player_detection2>();
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class patern_soldier : MonoBehaviour
             {
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
                 gameObject.GetComponent<Animator>().Play("soldier afk");
-                
+
 
             }
 
@@ -39,7 +39,7 @@ public class patern_soldier : MonoBehaviour
                 gameObject.GetComponent<Animator>().Play("soldier afk");
 
             }
-            
+
         }
 
         else

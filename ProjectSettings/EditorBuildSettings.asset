@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl 2.unity
     guid: 400995062390c1e4382a841ff69d3c8b
   - enabled: 1
-    path: Assets/Scenes/lvl 3.unity
-    guid: 3b1e112e3cb178b4183aa360f47a831a
+    path: Assets/Scenes/castle.unity
+    guid: b946302ec1fddfb448e80613a8d47f0a
   m_configObjects: {}

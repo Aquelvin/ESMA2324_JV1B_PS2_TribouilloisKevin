@@ -19,7 +19,7 @@ public class porteverrouilléone : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && key.keyone)
+        if (collision.gameObject.CompareTag("Player") && key.keytwo)
         {
             Destroy(gameObject);
         }

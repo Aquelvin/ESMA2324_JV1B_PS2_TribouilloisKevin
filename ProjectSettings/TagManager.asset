@@ -32,6 +32,7 @@ TagManager:
   - keyone
   - energy
   - keytwo
+  - card1
   layers:
   - Default
   - TransparentFX

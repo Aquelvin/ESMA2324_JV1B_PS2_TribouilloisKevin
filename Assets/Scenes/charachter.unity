@@ -1412,6 +1412,7 @@ GameObject:
   - component: {fileID: 2979829883503362733}
   - component: {fileID: 1295199822015589111}
   - component: {fileID: 4476181965817160707}
+  - component: {fileID: 8603123059434478941}
   - component: {fileID: 8603123059434478942}
   - component: {fileID: 1217098993373425952}
   - component: {fileID: 4505682110331997487}
@@ -1420,7 +1421,6 @@ GameObject:
   - component: {fileID: 3692937322696388632}
   - component: {fileID: 7045455430755462301}
   - component: {fileID: 8603123059434478940}
-  - component: {fileID: 8603123059434478941}
   - component: {fileID: 8603123059434478943}
   m_Layer: 0
   m_Name: perso
@@ -1994,8 +1994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2899eb229d428e4aad6a565f92b6fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bc: {fileID: 0}
-  rgbd: {fileID: 0}
+  bc: {fileID: 4476181965817160707}
+  rgbd: {fileID: 1217098993373425952}
   speed: 0
   health_bar: {fileID: 144094004}
   respiration: 0
