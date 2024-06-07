@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.83137256}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1979,6 +1979,7 @@ MonoBehaviour:
   cardC: {fileID: 2105241673}
   cardD: {fileID: 10797935}
   keyone: 0
+  keytwo: 0
   energy: 0
   porte: 101
 --- !u!114 &8603123059434478941
