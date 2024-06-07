@@ -28,15 +28,17 @@ public class patern_goomba : MonoBehaviour
                                 {
 
                                     rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
 
-                                }
+        }
 
                                 else if (!toleft)
                                 {
 
                                     rgbd.velocity = new Vector2(speed, rgbd.velocity.y);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
 
-                                }
+        }
                 
             
         
