@@ -6,21 +6,21 @@ public class Parallax_V2G : MonoBehaviour
 {
     private Transform target;
     public float smoothing;
-    public int level; //niveau d'arrière plan
+    public float level; //niveau d'arriï¿½re plan
     private float initialPositionx;
     private float initialPositiony;
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        initialPositionx = gameObject.transform.position.x; //récupère la position initiale en x
-        initialPositiony = gameObject.transform.position.y; //récupère la position initiale en y
+        initialPositionx = gameObject.transform.position.x; //rï¿½cupï¿½re la position initiale en x
+        initialPositiony = gameObject.transform.position.y; //rï¿½cupï¿½re la position initiale en y
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetPosition = new Vector3(target.position.x + (initialPositionx * level), initialPositiony * level, 5) / level; //calcule la position visée
+        Vector3 targetPosition = new Vector3(target.position.x + (initialPositionx * level), initialPositiony * level, 5) / level; //calcule la position visï¿½e
         transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing); //effectue le mouvement
     }
 }

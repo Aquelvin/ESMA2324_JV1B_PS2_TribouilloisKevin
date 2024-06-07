@@ -1981,6 +1981,7 @@ MonoBehaviour:
   keyone: 0
   keytwo: 0
   energy: 0
+  energy2: 0
   porte: 101
 --- !u!114 &8603123059434478941
 MonoBehaviour:
@@ -2003,7 +2004,7 @@ MonoBehaviour:
   res_regen: 0
   aportee: 0
   breathing: 0
-  ui: {fileID: 0}
+  ui: {fileID: 628566971}
 --- !u!114 &8603123059434478942
 MonoBehaviour:
   m_ObjectHideFlags: 0
