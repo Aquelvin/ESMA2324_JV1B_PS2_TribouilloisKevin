@@ -37,14 +37,14 @@ public class plateforme_up : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("uplimit"))
+        if (other.CompareTag("uplimit2"))
         {
             to_up = false;
 
         }
 
 
-        if (other.CompareTag("downlimit"))
+        if (other.CompareTag("downlimit2"))
         {
             to_up = true;
 
