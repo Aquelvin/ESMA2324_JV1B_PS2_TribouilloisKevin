@@ -1505,9 +1505,9 @@ MonoBehaviour:
   LeftSpawn: {fileID: 5936333700730070624}
   RightSpawn: {fileID: 1673868021698879735}
   Laser: {fileID: 2581151992878492956, guid: 1b1b08c0094b03c43a1459e4d63bb350, type: 3}
-  shotSpeed: 8
+  shotSpeed: 12
   laserRate: 2
-  range: 1.5
+  range: 1
   fire: 304
 --- !u!114 &3778936102058221746
 MonoBehaviour:
@@ -1812,8 +1812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Upspawn: {fileID: 5802949338352439029}
   LaserUp: {fileID: 1016716351054436868, guid: 9667453fee1086a4f82c238c2c3f5c24, type: 3}
-  shotSpeed: 8
-  laserupRate: 1.5
+  shotSpeed: 12
+  laserupRate: 1
   canShoot: 1
   range: 1
 --- !u!1 &7919787875297786716

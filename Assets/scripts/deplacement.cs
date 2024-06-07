@@ -78,7 +78,7 @@ public class deplacements : MonoBehaviour
             canmove = false;
             rgbd.velocity = new Vector2(10, 8);
             hitbox.localPosition = new Vector3(1.0584f, -0.0259f, 0f);
-            Invoke("re_move", 0.7f);
+            Invoke("re_move", 0.8f);
 
         }
 
@@ -89,7 +89,7 @@ public class deplacements : MonoBehaviour
             canmove = false;
             rgbd.velocity = new Vector2(-10, 8);
             hitbox.localPosition = new Vector3(-1.0584f, -0.0259f, 0f);
-            Invoke("re_move", 0.7f);
+            Invoke("re_move", 0.8f);
         }
 
     
@@ -99,14 +99,14 @@ public class deplacements : MonoBehaviour
             hitbox.localPosition = new Vector3(-5.919217f, -2f, 0f);
             rgbd.AddForce(Vector2.left);
 
-            if (rgbd.velocity.x > -5f)
-            {
-                rgbd.velocity = new Vector2(-5f, rgbd.velocity.y);
-            }
-
-            if (rgbd.velocity.x < -10f)
+            if (rgbd.velocity.x > -10f)
             {
                 rgbd.velocity = new Vector2(-10f, rgbd.velocity.y);
+            }
+
+            if (rgbd.velocity.x < -11f)
+            {
+                rgbd.velocity = new Vector2(-11f, rgbd.velocity.y);
             }
 
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
@@ -128,14 +128,14 @@ public class deplacements : MonoBehaviour
             hitbox.localPosition = new Vector3(5.919217f, -2f, 0f);
             rgbd.AddForce(Vector2.right);
 
-            if (rgbd.velocity.x < 5f)
+            if (rgbd.velocity.x < 10f)
             {
-                rgbd.velocity = new Vector2(5F, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(10F, rgbd.velocity.y);
             }
 
-            if (rgbd.velocity.x > 10f)
+            if (rgbd.velocity.x > 11f)
             {
-                rgbd.velocity = new Vector2(10f, rgbd.velocity.y);
+                rgbd.velocity = new Vector2(11f, rgbd.velocity.y);
             }
 
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
