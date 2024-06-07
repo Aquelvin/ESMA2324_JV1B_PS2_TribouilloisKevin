@@ -38,6 +38,8 @@ public class compteur : MonoBehaviour
 
     public bool energy = false;
 
+    public bool energy2 = false;
+
 
 
     // Fonction pour augmenter le compteur d'éliminations
@@ -138,6 +140,12 @@ public class compteur : MonoBehaviour
         if (other.CompareTag("energy"))
         {
             energy = true;
+
+        }
+
+        if (other.CompareTag("energy2"))
+        {
+            energy2 = true;
 
         }
     }

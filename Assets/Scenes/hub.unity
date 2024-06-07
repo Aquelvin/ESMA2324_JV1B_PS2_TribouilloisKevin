@@ -8780,7 +8780,6 @@ GameObject:
   - component: {fileID: 1607373268}
   - component: {fileID: 1607373267}
   - component: {fileID: 1607373266}
-  - component: {fileID: 1607373265}
   - component: {fileID: 1607373264}
   m_Layer: 0
   m_Name: testteemo (1)
@@ -8799,18 +8798,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d6ecbb52c09cfc4593a958ea55941f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1607373265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607373263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43008ce0a0ba0da4f9603a932de35b6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1607373266
@@ -13021,7 +13008,6 @@ GameObject:
   - component: {fileID: 3705584066107818882}
   - component: {fileID: 4999043949450691002}
   - component: {fileID: 8116861123699913494}
-  - component: {fileID: 7400444454106713668}
   - component: {fileID: 8116861123699913495}
   m_Layer: 0
   m_Name: testteemo
@@ -14137,18 +14123,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7400444454106713668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3882474191347977475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43008ce0a0ba0da4f9603a932de35b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &7428423226400053045
 SpriteRenderer:
   m_ObjectHideFlags: 0

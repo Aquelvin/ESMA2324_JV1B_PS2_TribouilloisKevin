@@ -1967,7 +1967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   compteur_crystal: {fileID: 2000830192}
-  crystalcount: 0
+  crystalcount: 40
   cardone: 0
   cardone2: 0
   cardone3: 0
