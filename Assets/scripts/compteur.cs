@@ -38,6 +38,10 @@ public class compteur : MonoBehaviour
 
     [SerializeField] public Image cardD;
 
+    [SerializeField] public Image tresorA;
+    [SerializeField] public Image tresorB;
+    [SerializeField] public Image tresorC;
+
     public bool keyone = false;
 
     public bool keytwo = false;
@@ -47,6 +51,11 @@ public class compteur : MonoBehaviour
     public bool energy2 = false;
 
 
+    public bool recoltone = false;
+
+    public bool recolttwo = false;
+
+    public bool recoltthree = false;
 
     // Fonction pour augmenter le compteur d'�liminations
 
@@ -59,6 +68,10 @@ public class compteur : MonoBehaviour
         cardB.enabled = false;
         cardC.enabled = false;
         cardD.enabled = false;
+
+        tresorA.enabled = false;
+        tresorB.enabled = false;
+        tresorC.enabled = false;
     }
 
     void Update()
@@ -120,6 +133,21 @@ public class compteur : MonoBehaviour
         {
             cardone3 = true;
             cardC.enabled = true;
+        }
+         if (other.CompareTag("tresorA"))
+        {
+            tresorA.enabled = true;
+            recoltone = true;
+        }
+         if (other.CompareTag("tresorB"))
+        {
+            tresorB.enabled = true;
+            recolttwo = true;
+        }
+         if (other.CompareTag("tresorC"))
+        {
+            tresorC.enabled = true;
+            recoltthree = true;
         }
     }
     private void OnTriggerStay2D(Collider2D other)

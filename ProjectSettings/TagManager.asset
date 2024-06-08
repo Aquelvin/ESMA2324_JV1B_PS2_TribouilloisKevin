@@ -36,6 +36,9 @@ TagManager:
   - energy2
   - uplimit2
   - downlimit2
+  - tresorA
+  - tresorB
+  - tresorC
   layers:
   - Default
   - TransparentFX
