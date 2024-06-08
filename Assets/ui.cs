@@ -31,12 +31,13 @@ public class life_ui : MonoBehaviour
 
     playerlife counter;
 
+    private GameObject barrelife;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        barrelife = GameObject.Find("barre_de_vie");
     }
 
     // Update is called once per frame
@@ -67,7 +68,8 @@ public class life_ui : MonoBehaviour
     private void Res_perd()
     {
         //respiration -= res_perdue;
-        health_bar.transform.localScale = new Vector3((counter.lifecount/ 5f)*3, 3f,1f);
+        //health_bar.transform.localScale = new Vector3((counter.lifecount/ 5f)*3, 3f,1f);
+         barrelife.transform.localScale = new Vector3((counter.lifecount/ 5f)*3, 3f,1f);
     }
 
     //void Res_gagne()

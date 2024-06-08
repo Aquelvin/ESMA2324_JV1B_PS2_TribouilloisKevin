@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 144094006}
   - component: {fileID: 144094005}
   m_Layer: 5
-  m_Name: Image
+  m_Name: barre_de_vie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2216,6 +2216,9 @@ MonoBehaviour:
   keytwo: 0
   energy: 0
   energy2: 0
+  recoltone: 0
+  recolttwo: 0
+  recoltthree: 0
 --- !u!114 &8603123059434478941
 MonoBehaviour:
   m_ObjectHideFlags: 0
