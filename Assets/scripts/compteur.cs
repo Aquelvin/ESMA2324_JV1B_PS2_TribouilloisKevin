@@ -7,10 +7,16 @@ using UnityEngine.UI;
 public class compteur : MonoBehaviour
 {
 
-    [SerializeField] private Text compteur_crystal;
-    //public int requiredEliminations = 3; // Nombre d'ennemis à tuer pour permettre le changement de scène
 
-    public int crystalcount = 0; // Compteur d'éliminations
+
+        [SerializeField]
+    private KeyCode money = KeyCode.Q, recupfull = KeyCode.E, hub = KeyCode.H;
+
+
+    [SerializeField] private Text compteur_crystal;
+    //public int requiredEliminations = 3; // Nombre d'ennemis ï¿½ tuer pour permettre le changement de scï¿½ne
+
+    public int crystalcount = 0; // Compteur d'ï¿½liminations
 
     public bool cardone= false;
 
@@ -42,10 +48,9 @@ public class compteur : MonoBehaviour
 
 
 
-    // Fonction pour augmenter le compteur d'éliminations
+    // Fonction pour augmenter le compteur d'ï¿½liminations
 
-    [SerializeField]
-    private KeyCode porte = KeyCode.E;
+
 
     void Start()
     {
@@ -63,8 +68,35 @@ public class compteur : MonoBehaviour
             crystalcount = 0;
         }
         compteur_crystal.text = "" + crystalcount;
+
+        if (Input.GetKeyDown(money))
+        {
+            crystalcount+= 100;
+        }
+
+        else if (Input.GetKeyDown(recupfull))
+        {
+            cardone = true;
+            cardA.enabled = true;
+
+            cardone2 = true;
+            cardB.enabled = true;
+
+            cardone3 = true;
+            cardC.enabled = true;
+
+        }
+
+        else if (Input.GetKeyDown(hub))
+        {
+            SceneManager.LoadScene(2);
+            gameObject.transform.position = new Vector3(44f, -19f, 0f);
+        }
+
+        
+
     }
-    // Fonction pour changer de scène
+    // Fonction pour changer de scï¿½ne
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("crystal"))
