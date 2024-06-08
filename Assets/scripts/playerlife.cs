@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerlife : MonoBehaviour
 {
@@ -29,7 +30,7 @@ public class playerlife : MonoBehaviour
         lifecount -= 1;
 
 
-        // essaie de mettre le code de Mel ici, pour les frames d'invulnérabilité
+        // essaie de mettre le code de Mel ici, pour les frames d'invulnï¿½rabilitï¿½
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -47,6 +48,7 @@ public class playerlife : MonoBehaviour
 
     public void death()
     {
+        SceneManager.LoadScene(0);
         Destroy(gameObject);
     }
 

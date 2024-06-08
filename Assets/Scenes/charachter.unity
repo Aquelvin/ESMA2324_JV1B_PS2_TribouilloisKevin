@@ -334,12 +334,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167218971}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.4, y: -2.84, z: -0.0468394}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0023416965, y: -0, z: -0, w: 0.99999726}
+  m_LocalPosition: {x: 7.212959, y: -2.0529068, z: 1.1306645}
+  m_LocalScale: {x: 2.4701912, y: 2.13554, z: 4.0574036}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5474626136809987692}
+  m_Father: {fileID: 2979829883503362733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &315105828
 PrefabInstance:
@@ -582,7 +582,7 @@ RectTransform:
   - {fileID: 2105241672}
   - {fileID: 10797934}
   - {fileID: 1024246383}
-  m_Father: {fileID: 5474626136809987692}
+  m_Father: {fileID: 2979829883503362733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -769,12 +769,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880213362}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5463667, y: -1.6294117, z: -0.005575735}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0023416965, y: -0, z: -0, w: 0.99999726}
+  m_LocalPosition: {x: 4.3812137, y: 0.53188527, z: 1.3210936}
+  m_LocalScale: {x: 2.4701912, y: 2.13554, z: 4.0574036}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5474626136809987692}
+  m_Father: {fileID: 2979829883503362733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1880213364
 MonoBehaviour:
@@ -1342,6 +1342,9 @@ Transform:
   - {fileID: 5936333700730070624}
   - {fileID: 5802949338352439029}
   - {fileID: 3965494268884971891}
+  - {fileID: 628566972}
+  - {fileID: 167218974}
+  - {fileID: 1880213363}
   m_Father: {fileID: 5474626136809987692}
   m_LocalEulerAnglesHint: {x: -0.268, y: 0, z: 0}
 --- !u!114 &3030028848271145072
@@ -1685,9 +1688,6 @@ Transform:
   m_Children:
   - {fileID: 2979829883503362733}
   - {fileID: 3552108726565238436}
-  - {fileID: 628566972}
-  - {fileID: 167218974}
-  - {fileID: 1880213363}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &5637729408339715839
